@@ -1,0 +1,76 @@
+@media screen and (max-width: 1330px) {
+  .header {
+    margin: 0 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* res banner  */
+  .banner {
+    margin: 0;
+    height: 57rem;
+  }
+  .banner_container {
+    margin: 0 6rem;
+  }
+  .banner_container-title {
+    font-size: 3rem;
+  }
+
+  /* res post  */
+  .content {
+    padding: 0;
+  }
+  .content_container {
+    display: block;
+  }
+  /* res sidebar  */
+}
+
+@media screen and (max-width: 767px) {
+  /* res banner  */
+  .banner {
+    margin: 0;
+    height: 36rem;
+  }
+  .banner_container-title {
+    font-size: 2.2rem;
+  }
+  .banner_container {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    margin: 0 2rem;
+  }
+  .banner_container-author {
+    display: block;
+  }
+  .banner_container-author--profile {
+    margin-bottom: 1rem;
+  }
+  /* res form */
+  .form_info {
+    display: flex;
+    flex-direction: column;
+  }
+  .form_info > div {
+    width: 100% !important;
+  }
+
+  /* res footer  */
+  .footer_container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* res instagram  */
+  .stories_container {
+    margin: 0;
+  }
+
+  /* res footer  */
+  .contact_us > ul {
+    display: flex;
+    flex-direction: column;
+  }
+}

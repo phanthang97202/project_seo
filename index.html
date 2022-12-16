@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
+    <title>BeStore</title>
+
+    <link rel="canonical" href="https://bestore.vercel.app/">
+    <meta name="description"
+        content="Hệ thống bán lẻ điện thoại di động, smartphone, máy tính bảng, tablet, laptop, phụ kiện, smartwatch, đồng hồ chính hãng mới nhất, giá tốt, dịch vụ khách hàng được yêu thích nhất VN">
+    <meta property="og:description"
+        content="Hệ thống bán lẻ điện thoại di động, smartphone, máy tính bảng, tablet, laptop, phụ kiện, smartwatch, đồng hồ chính hãng mới nhất, giá tốt, dịch vụ khách hàng được yêu thích nhất VN">
+    <meta name="keywords"
+        content="Be Store, bestore, điện thoại di động, smartphone, tablet, máy tính bảng, laptop, máy tính xách tay, phụ kiện, smartwatch, đồng hồ, tin công nghệ">
+    <meta name="author" content="bestore">
+
+    <meta property="og:type" content="website">
+    <meta property="twitter:url" content="https://bestore.vercel.app/">
+    <meta property="twitter:title" content="Hệ thống bán lẻ điện thoại di động Be Store">
+    <meta property="twitter:image" content="https://bestore.vercel.app/assets/img/favicon.png">
+    <meta property="og:url" content="https://bestore.vercel.app/">
+    <meta property="og:title"
+        content="Be Store, bestore, điện thoại di động, smartphone, tablet, máy tính bảng, laptop, máy tính xách tay, phụ kiện, smartwatch, đồng hồ, tin công nghệ">
+    <meta property="og:image" content="https://bestore.vercel.app/assets/img/favicon.png">
+
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/responsive-home.css">
+    <!-- <link rel="stylesheet" href="./assets/css-detail/detail.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER  -->
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <a href="./index.html" class="header-logo">
+                    <img src="./assets/img/bestore.png" alt="bestore-logo" />
+                </a>
+                <div class="header-search">
+                    <form class="header-search-form" action="./index.html">
+                        <button> <i style="font-size: large;" class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="text" name="search" placeholder="Nhập tên sản phẩm tìm kiếm..." />
+                    </form>
+                </div>
+                <div class="header-action">
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <button class="btn-menu-mobile btn-select">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div id="select-mobile" class="header-bottom">
+                <div class="header-action header-action-show-mobile " style="margin-bottom: 20px;">
+                    <a href="#account"><i class="fa-regular fa-user"></i></a>
+                    <a href="#favorite"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <div class="header-bottom-left">
+                    <ul class="header-bottom-navbar">
+                        <li>
+                            <a href="./index.html">
+                                Trang chủ
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#featuredlink">
+                                Sản phẩm
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./news.html">
+                                Tin tức
+                            </a>
+
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="header-bottom-right">
+                    <ul class="header-bottom-navbar">
+                        <li>
+                            <a href="./news.html">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#footer">
+                                Liên hệ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#dangnhap">
+                                Đăng nhập
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div id="cover-header" class="cover"></div>
+    </div>
+
+    <!-- BANNER-HOME -->
+    <div class="banner">
+        <div class="banner__container">
+            <div class="banner__container--left">
+                <h1>iPhone 14 Plus 6GB 128GB</h1>
+                <p>Giảm 10% gói Bảo hiểm rơi vỡ PTI 6 tháng. Ưu đãi giảm 50% các phụ kiện của Apple</p>
+                <div>
+                    <ul>
+                        <li><button class=""></button></li>
+                        <li><button class="black"></button></li>
+                        <li><button class="orange"></button></li>
+                        <li><button class="red"></button></li>
+                    </ul>
+                    <a href="./iphone-14-plus.html">
+                        Xem chi tiết
+                    </a>
+                </div>
+            </div>
+            <div class="banner__container--right">
+                <!-- <img src="./assets/img/banner-home/banner-product.png" alt="banner-products-web"> -->
+                <img src="./assets/img-detail/img-information/banner-home.png" alt="banner-products-web">
+            </div>
+        </div>
+        <div class="banner__bottom">
+            <button id="banner__bottom--watch">Appe Watch</button>
+            <button id="banner__bottom--air">iPhone</button>
+            <button id="banner__bottom--phone">Apple TV</button>
+        </div>
+    </div>
+
+    <!-- BROWSE -->
+    <div class="browse">
+        <div class="container__browse">
+            <h2 class="home-title">Có <span>
+                    <a href="#featuredlink">+6000</a>
+                </span> sản phẩm</h2>
+            <ul class="container__browse--items">
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/browse/browse-laptop.png" alt="browse-laptop">
+                        <p>Notebooks</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/browse/browse-iphone.png" alt="browse-iphone">
+                        <p>Phones</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/browse/browse-tivi.png" alt="browse-tivi">
+                        <p>Tivi/Audio</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/browse/browse-watch.png" alt="browse-watch">
+                        <p>Watches</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/browse/browse-game.png" alt="browse-game">
+                        <p>Gaming</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./404.html">
+                        <img src="./assets/img/browse/browse-all.png" alt="browse-all">
+                        <p>View all</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PRODUCTS  -->
+    <div class="products">
+        <h2 class="home-title">sale cực lớn</h2>
+        <div class="products__container">
+            <a class="products__item" href="./iphone-14-plus.html">
+                <div class="products__item--img">
+                    <img src="./assets/img/products/ipad-product.jpg" alt="ipad-product">
+                    <p class="label-sale">-20%</p>
+                </div>
+                <h4 class="products__item--name">Mac Book Pro 2022</h4>
+                <p class="products__item--price"><span>34.999.999&#8363;</span> 28.000.000 &#8363; </p>
+            </a>
+            <a class="products__item" href="./iphone-14-plus.html">
+                <div class="products__item--img">
+                    <img src="./assets/img/products/mac-product.jpg" alt="mac-product">
+                    <p class="label-sale">-30%</p>
+                </div>
+                <h4 class="products__item--name">Mac Book Air 2022</h4>
+                <p class="products__item--price"><span>39.999.999&#8363;</span> 28.000.000 &#8363; </p>
+
+            </a>
+            <a class="products__item" href="./iphone-14-plus.html">
+                <div class="products__item--img">
+                    <img src="./assets/img/products/tivi-product.jpg" alt="tivi-product">
+                    <p class="label-sale">-90%</p>
+                </div>
+                <h4 class="products__item--name">Apple TV Gen 7</h4>
+                <p class="products__item--price"><span>51.999.999</span> 6.000.000 &#8363; </p>
+            </a>
+            <a class="products__item" href="./iphone-14-plus.html">
+                <div class="products__item--img">
+                    <img src="./assets/img/products/phone-product.jpg" alt="phone-product">
+                    <p class="label-sale">-40%</p>
+
+                </div>
+                <h4 class="products__item--name">iPhone 11 Pro Max</h4>
+                <p class="products__item--price"><span>27.000.000&#8363;</span> 16.000.000 &#8363; </p>
+            </a>
+        </div>
+    </div>
+
+    <!-- TOP PRODUCTS  -->
+    <div class="hightop">
+        <h2 class="home-title">bán chạy nhất</h2>
+        <div class="hightop__container">
+            <div class="hightop__top">
+                <div class="hightop__top--right">
+                    <div class="hightop__top--content right">
+                        <h3>Air Pod Max</h3>
+                        <p>Feel of sound</p>
+                        <button>View Product</button>
+                    </div>
+                </div>
+                <div class="hightop__top--left">
+                    <div class="hightop__top--content left">
+                        <h3 class="black-name">iPhone 14 Plus</h3>
+                        <p class="black-desc">Small and powerfull</p>
+                        <button class="btn-common black-btn">View Product</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hightop__bottom">
+                <div class="hightop__bottom--right">
+                    <div class="hightop__top--content  hightop__bottom--right-bottom">
+                        <h3 class="black-name">Smart Charger</h3>
+                        <p class="black-desc">Wireless Connection</p>
+                        <button class="black-btn">View Product</button>
+                    </div>
+                </div>
+                <div class="hightop__bottom--left">
+                    <div>
+                        <h3>Đếm Ngược</h3>
+                        <p>Thời gian còn lại của các sản phẩm đặc biết. Nhanh chân lên!</p>
+                        <div class="countdown">
+                            <div>
+                                <h5>02</h5>
+                                <p>ngày</p>
+                            </div>
+                            <div>
+                                <h5>12</h5>
+                                <p>tiếng</p>
+                            </div>
+                            <div>
+                                <h5>26'</h5>
+                                <p>phút</p>
+                            </div>
+                        </div>
+                        <button class="btn-common">Shoping Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS MAIN  -->
+    <div style="scroll-behavior: smooth;" id="featuredlink" class="main">
+        <p class="home-title">sản phẩm nổi bật</p>
+        <div class="main__container">
+            <div class="main__product">
+                <div class="main__product--img">
+                    <img class="main-img" src="./assets/img/main/macbook.jpg" alt="macbook-main">
+                    <img class="behind-img" src="./assets/img/main/macbook-behind.jpg" alt="macbook-behind-main">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="./index.html"><i class="fa-solid fa-maximize"></i></a></li>
+                    </ul>
+                </div>
+                <h4 class="main__product--name">Macbook Pro 2023</h4>
+                <ul class="main__product--vote">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class="main__product--price">29.999.998 &#8363;</p>
+            </div>
+            <div class="main__product">
+                <div class="main__product--img">
+                    <img class="main-img" src="./assets/img/main/air-main.jpg" alt="air-main">
+                    <img class="behind-img" src="./assets/img/main/air-behind.jpg" alt="air-behind">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="./iphone-14-plus.html"><i class="fa-solid fa-maximize"></i></a></li>
+                    </ul>
+                </div>
+                <h4 class="main__product--name">Headphone Pro 2022</h4>
+                <ul class="main__product--vote">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class="main__product--price">8.499.000 &#8363;</p>
+            </div>
+            <div class="main__product">
+                <div class="main__product--img">
+                    <img class="main-img" src="./assets/img/main/iphone-main.jpg" alt="iphone-main">
+                    <img class="behind-img" src="./assets/img/main/iphone-behind.jpg" alt="iphone-behind">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="./iphone-14-plus.html"><i class="fa-solid fa-maximize"></i></a></li>
+                    </ul>
+                </div>
+                <h4 class="main__product--name">iPhone 14 Plus</h4>
+                <ul class="main__product--vote">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class="main__product--price">27.499.000 &#8363;</p>
+            </div>
+            <div class="main__product">
+                <div class="main__product--img">
+                    <img class="main-img" src="./assets/img/main/iphone-main2.jpg" alt="iphone-main2">
+                    <img class="behind-img" src="./assets/img/main/iphone-behind2.jpg" alt="iphone-behind2">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+                        <li><a href="./iphone-14-plus.html"><i class="fa-solid fa-maximize"></i></a></li>
+                    </ul>
+                </div>
+                <h4 class="main__product--name">iPhone 11 Pro Max</h4>
+                <ul class="main__product--vote">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <!-- <li><i class="fa-solid fa-star"></i></li> -->
+                </ul>
+                <p class="main__product--price">23.999.000 &#8363;</p>
+            </div>
+            <div class="main__product">
+                <div class="main__product--img">
+                    <img class="main-img" src="./assets/img/main/watch-main.jpg" alt="watch-main">
+                    <img class="behind-img" src="./assets/img/main/watch-behind.jpg" alt="watch-behind">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="./iphone-14-plus.html"><i class="fa-solid fa-maximize"></i></a></li>
+                    </ul>
+                </div>
+                <h4 class="main__product--name">Apple Watch S3 GPS</h4>
+                <ul class="main__product--vote">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class="main__product--price">4.490.000 &#8363;</p>
+            </div>
+
+            <div class="main__product">
+                <div class="main__product--img">
+                    <img class="main-img" src="./assets/img/main/air-main4.jpg" alt="air-main4">
+                    <img class="behind-img" src="./assets/img/main/air-behind4.jpg" alt="air-behind4">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="./index.html"><i class="fa-solid fa-maximize"></i></a></li>
+                    </ul>
+                </div>
+                <h4 class="main__product--name">Apple MMTN2 Wireless</h4>
+                <ul class="main__product--vote">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class="main__product--price">2.299.000 &#8363;</p>
+            </div>
+            <div class="main__product">
+                <div class="main__product--img">
+                    <img class="main-img" src="./assets/img/main/air-main3.jpg" alt="air-main3">
+                    <img class="behind-img" src="./assets/img/main/air-behind3.jpg" alt="air-behind3">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="./iphone-14-plus.html"><i class="fa-solid fa-maximize"></i></a></li>
+                    </ul>
+                </div>
+                <h4 class="main__product--name">Bluetooth Mozard K8</h4>
+                <ul class="main__product--vote">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class="main__product--price">400.000 &#8363;</p>
+            </div>
+            <div class="main__product">
+                <div class="main__product--img">
+                    <img class="main-img" src="./assets/img/main/iphone-main3.jpg" alt="iphone-main3">
+                    <img class="behind-img" src="./assets/img/main/iphone-behind3.jpg" alt="iphone-behind3">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-paperclip"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="./iphone-14-plus.html"><i class="fa-solid fa-maximize"></i></a></li>
+                    </ul>
+                </div>
+                <h4 class="main__product--name">iPhone 11 64GB</h4>
+                <ul class="main__product--vote">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class="main__product--price">11.690.000 &#8363;</p>
+            </div>
+        </div>
+        <button class="view__more">Xem Thêm</button>
+    </div>
+
+    <!-- DELIVERY  -->
+    <div class="delivery">
+        <h2 class="home-title">vận chuyển an toàn</h2>
+        <div class="delivery__container">
+            <div class="delivery__item">
+                <img src="./assets/img/delivery/delivery-1.png" alt="delivery-1">
+                <h5>Đặt hàng nhanh</h5>
+                <p>Đặt hàng dễ dàng và nhanh chóng, tự do lựa chọn sản phẩm</p>
+            </div>
+            <div class="delivery__item">
+                <img src="./assets/img/delivery/delivery-2.png" alt="delivery-2">
+                <h5>Vận chuyển miễn phí</h5>
+                <p>Ưu đãi tại shop khi khách hàng sẽ được vận chuyển miễn phí </p>
+            </div>
+            <div class="delivery__item">
+                <img src="./assets/img/delivery/delivery-3.png" alt="delivery-3">
+                <h5>Hoàn trả sau 30 ngày</h5>
+                <p>Bất kì vấn đề gì về thiết bị, chỉ cần có bảo hành quý khách sẽ được đổi mới</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUPPORT BANNER  -->
+    <div class="support">
+        <div class="support__container">
+            <div class="support__content">
+                <h4>Chăm sóc khách hàng</h4>
+                <p>Dịch vụ chăm sóc khách hàng 24/24. Thân thiện, vui vẻ và giải đáp mọi thắc mắc!</p>
+                <a href="https://chat.zalo.me/">Hotline: 039 408 2356 ✔</a>
+            </div>
+            <div class="support__img">
+                <img src="./assets/img/support.png" alt=" contact-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT  -->
+    <div class="contact">
+        <div class="contact__container">
+            <h4 class="home-title">Nhận thông tin khuyến mãi và tin tức nhanh nhất từ chúng tôi</h4>
+            <form>
+                <div>
+                    <input id="name" type="text" placeholder="Name">
+                    <input id="email" type="text" placeholder="Email">
+                </div>
+                <p><input type="checkbox">
+                    Chấp nhận các điều kiện và điều khoản
+                </p>
+                <button>Đăng Ký</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- LUXURY  -->
+    <div class="luxury">
+        <h4 class="home-title">Hợp tác và trao đổi</h4>
+        <div class="luxury__container">
+            <ul>
+                <li>
+                    <img src="./assets/img/luxury/luxyry-1.png" alt="luxury-1">
+                </li>
+                <li>
+                    <img src="./assets/img/luxury/luxury-2.png" alt="luxury-2">
+                </li>
+                <li>
+                    <img src="./assets/img/luxury/luxury-3.png" alt="luxury-3">
+                </li>
+                <li>
+                    <img src="./assets/img/luxury/luxury-4.png" alt="luxury-4">
+                </li>
+                <li>
+                    <img src="./assets/img/luxury/luxury-5.png" alt="luxury-5">
+                </li>
+            </ul>
+            <div class="luxury__desc">
+                <div class="luxury__desc--left">
+                    <h4>Lời cảm ơn</h4>
+                    <p>Chúng tôi chân thành cảm ơn sự tin tưởng và yêu quý của khách hàng dành cho shop
+                        <span>
+                            <a href="./index.html">
+                                bestore
+                            </a>
+                        </span>. Sự yêu mến của quý khách là động lức giúp chúng tôi luôn cố gắng phát triển và mang lại
+                        những trải nghiệm mua sắm tốt hơn nữa.
+                    </p>
+                </div>
+                <div class="luxury__desc--right">
+                    <h4>Chất lượng hàng đầu</h4>
+                    <p>Với sự hợp tác giữa các nhãn hàng công nghệ lớn trên thế giới như Apple, Samsung, Xiaomi,...Hi
+                        vọng điều đó sẽ mang lại sự tin tưởng và uy tín dành cho quý khách.Với phương châm <span>"Uy tín
+                            tạo
+                            nên thành công!"</span>, trong tương lai chúng tôi sẽ cố gắng hợp tác kinh doanh với những
+                        nhãn hàng
+                        lớn khác giúp cho người dùng có nhiều sự lựa chọn hơn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER  -->
+    <footer id="footer">
+        <div class="footer__container">
+            <ul class="footer__useful">
+                <p>Liên Kết </p>
+                <li>
+                    <a href="#lienhe">Liên hệ với chúng tôi</a>
+                </li>
+                <li>
+                    <a href="#trogiup">Trợ giúp và thông tin</a>
+                </li>
+                <li>
+                    <a href="#shipvahoantra">Ship và hoàn trả</a>
+                </li>
+                <li>
+                    <a href="#chinhsachmuahang">Chính sách mua hàng</a>
+                </li>
+            </ul>
+            <ul class="footer__service">
+                <p>Dịch Vụ Khách Hàng</p>
+                <li>
+                    <a href="#bangdieukhien">Bảng điều khiển</a>
+                </li>
+                <li>
+                    <a href="#dathang">Đặt hàng</a>
+                </li>
+                <li>
+                    <a href="#taixuong">Tải xuống</a>
+                </li>
+                <li>
+                    <a href="#diachi">Địa chỉ</a>
+                </li>
+                <li>
+                    <a href="#chitiettaikhoan">Chi tiết tài khoản</a>
+                </li>
+                <li>
+                    <a href="#quenmatkhau">Quên mật khẩu</a>
+                </li>
+            </ul>
+            <ul class="footer__address">
+                <p>Giờ Làm Việc</p>
+                <li>Số nhà 7, thôn Đồng Nhân, xã Nhân Đạo, huyện Lý Nhân, tỉnh Hà Nam.</li>
+                <li>Thứ 2 - Thứ 7</li>
+                <li>09:00 am - 06:00 pm</li>
+                <li>Chủ Nhật</li>
+                <li>07:00 am - 08:00 pm</li>
+            </ul>
+            <ul class="footer__payment">
+                <p>Phương Thức Thanh Toán</p>
+                <li>Mọi thanh toán của quý khách có thể thực hiện qua :</li>
+
+                <li>
+                    <img src="./assets/img/footer-home/footer.png" alt="phuong-thuc-thanh-toan">
+                </li>
+                <li>
+                    <img src="./assets/img/footer-home/bo-cong-thuong.png" alt="bo-cong-thuong">
+                </li>
+                <li>
+                    <img src="./assets/img/footer-home/da-dang-ki.png" alt="da-dang-ki">
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="footer__author">
+        <p>© 2022 Create Design by PhanThang x HongThang - HPC</p>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+<script src="./assets/javascript/detail.js"></script>
+<script src="./assets/javascript/main.js"></script>
+
+</html>
