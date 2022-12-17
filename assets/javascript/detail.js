@@ -50,6 +50,7 @@ const postcomment = document.getElementById("postcomment");
 const card = document.querySelector(".card");
 const yourcomment = document.getElementById("yourcomment");
 // console.log(postcomment, card);
+console.log(yourcomment.value);
 if (postcomment) {
   postcomment.addEventListener("click", (e) => {
     const content = `
@@ -86,7 +87,11 @@ if (postcomment) {
         </div>
     </div>
   `;
-    card.insertAdjacentHTML("afterBegin", content);
-    yourcomment.value = "";
+    if (yourcomment.value !== "") {
+      card.insertAdjacentHTML("afterBegin", content);
+      yourcomment.value = "";
+    } else {
+      alert("Nhập bình luận");
+    }
   });
 }
